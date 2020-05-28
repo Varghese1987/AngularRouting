@@ -1,0 +1,30 @@
+<header class="masthead" style="background-image: url(&quot;assets/img/home-bg.jpg&quot;);">
+    <div class="overlay"></div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-10 mx-auto">
+                <div _ngcontent-wjs-c45="" class="site-heading">
+                    <h1>Clean Blog</h1>
+                    <span class="subheading">Blog Theme by Start Bootstrap</span>
+                </div>
+                <!----><!---->
+            </div>
+        </div>
+    </div>
+</header>
+<div _ngcontent-wjs-c45="" class="overlay"></div>
+<div class="container">
+    <div class="row">
+        <div class="col-lg-2"></div>
+        <div class="col-lg-8">
+            <div *ngFor = "let item of data">
+                <a routerLink  = "#">
+                    <h1>{{item.head}}</h1>
+                    <h4>{{item.subHead}}</h4>
+                </a>
+                <p>{{item.date}}</p>
+            </div>
+        </div>
+        <div class="col-lg-2"></div>
+    </div>
+</div>

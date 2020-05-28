@@ -1,0 +1,30 @@
+header.masthead {
+    height: 450px;
+    margin-bottom: 50px;
+    background: no-repeat 50%;
+    background-color: #868e96;
+    background-attachment: scroll;
+    position: relative;
+    background-size: cover;
+    /* padding-top: 10%; */
+    padding: 20%;
+    color: white;
+}
+
+body {
+    font-size: 20px;
+    color: white;
+    font-family: Lora,Times New Roman,serif;
+}
+header.masthead .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #212529;
+    opacity: .5;
+}
+.h1, h1 {
+    font-size: 2.5rem;
+}
