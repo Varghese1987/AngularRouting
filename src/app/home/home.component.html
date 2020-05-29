@@ -18,11 +18,11 @@
         <div class="col-lg-2"></div>
         <div class="col-lg-8">
             <div *ngFor = "let item of data">
-                <a routerLink  = "#">
-                    <h1>{{item.head}}</h1>
-                    <h4>{{item.subHead}}</h4>
+                <a [routerLink]  = "['/details/',item.id]">
+                    <h1 class = "h1">{{item.head}}</h1>
+                    <h4 class = "h4">{{item.subHead}}</h4>
                 </a>
-                <p>{{item.date}}</p>
+                <p><i>{{item.date}}</i></p>
             </div>
         </div>
         <div class="col-lg-2"></div>

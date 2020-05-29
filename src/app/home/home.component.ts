@@ -9,16 +9,19 @@ export class HomeComponent implements OnInit {
 
   data = [
   {
+    id:1,
     head : "Magna nostrud incididunt cupidatat cillum incididunt et nisi in ut minim reprehenderit.",
     subHead: "Labore irure irure laborum quis tempor aliqua. Dude",
     date: "February 19, 2020"
   },
   {
+    id:2,
     head:"Dolore pariatur amet ullamco aliquip mollit aliqua qui.",
     subHead:"Eiusmod ipsum do dolore fugiat consequat quis non qui velit consectetur velit.",
     date:"February 17, 2020"
   },
   {
+    id:3,
     head:"Velit esse dolor dolor qui cillum velit in quis exercitation occaecat.",
     subHead:"Adipisicing sit minim occaecat nulla proident exercitation do laboris.",
     date:"February 15, 2020"
